@@ -1,6 +1,8 @@
 package com.swop.port.in;
 
+/*
+ * Interfaz que define el caso de uso para pagar una orden.
+ */
 public interface PayOrderUseCase {
-    // TODO SE PUEDE UTILIZAR EL ValueObject DEL DOMINIO
     void payOrder(String orderId);
 }

@@ -1,6 +1,8 @@
 package com.swop.port.in;
 
+/*
+ * Interfaz que define el caso de uso para cancelar una orden.
+ */
 public interface CancelOrderUseCase {
-    // TODO Si tienen uno o 2 parametros es recomendable el Command
     void cancelOrder(String orderId);
 }
